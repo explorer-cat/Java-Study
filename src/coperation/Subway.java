@@ -47,6 +47,12 @@ public class Subway extends AbstractTrans {
         addMoney(money);
     }
 
+    @Override
+    public void exit(int money) {
+
+    }
+
+    @Override
     public void showInfo() {
         System.out.println(getNumber() + "번 지하철의 수익은 " +getMoney() +"이고, 탑승자는 총 " +getPeople() + "명 입니다.");
     }

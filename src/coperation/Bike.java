@@ -1,6 +1,6 @@
 package coperation;
 
-public class Bus extends AbstractTrans {
+public class Bike extends AbstractTrans {
     int busNumber,money = 0,peopleCount = 0;
 
     public int getBusNumber() {
@@ -35,7 +35,7 @@ public class Bus extends AbstractTrans {
         setPeopleCount(getPeopleCount() + num);
     }
 
-    public Bus(int busNumber) {
+    public Bike(int busNumber) {
         this.busNumber = busNumber;
     }
 
